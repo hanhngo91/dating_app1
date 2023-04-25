@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chat{
+    padding: 2rem;
+    height: 65vh;
+    overflow-y: auto;
+}
+input{
+    padding: 0.5rem;
+    width: 63%;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.onboarding{
+    background: url("/public/images/DashBoardBkg3.png");
+    background-size: cover;
+    padding-top: 2rem;
+    
+}
+h1{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-style: italic;
+    color: #f691a0;
+}
+.onboarding form{
+    display: grid;
+    text-align: left;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 0 2rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.onboarding form input, .onboarding form textarea{
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0;
+    font-size: 14px;
+    border: 2px solid #8a8989;
+    border-radius: 10px;
+    margin-right: .3rem;
+    background: transparent;
+}
+#dob_day, #dob_month, #dob_year {
+    width: 20%;
+    text-align: center;
+}
+#dob_month, #dob_year {
+    margin-left: 0.5rem;
+}
+input[type="checkbox"]{
+    width: inherit;
+}
+ 
+ #submit{
+    width: 150px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #e9aab2;
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #e06e7b;
+
+}
+#url{
+    margin-left: 1rem;
+}
+.photo-container{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.pic{
+width: 10rem;
+height: 12rem;
+border: 1px solid #8a8989;
+border-radius: 15px;
+}
+label{
+    margin-right: 1rem;
+}
+
+.radio-title{
+    border: 2px solid #8a8989;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    width: 3rem;
+}
+
+.label-title{
+    font-weight: 600;
+}
+
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked + label{
+    border: 2px solid #db8888;
+
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.primary-button{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #e9a1a9;
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 13rem;
+    margin-right: 30rem;
+
+}
+.primary-button:hover{
+    background-color: #e06e7b;
+
+}
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: url("/public/images/Background2.png");
+    background-size: cover
+}

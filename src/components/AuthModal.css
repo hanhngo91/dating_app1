@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    height: 100vh;
+}
+
+.auth-modal{
+    position: absolute;
+    top: 4rem;
+    margin-left: 20%;
+    margin-right: auto;
+    width: 23rem;
+    height: 28rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+.close-icon{
+    float: right;
+    cursor: pointer;
+}
+.close-icon:hover{
+    color: #dd6b78;
+}
+h2{
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #f691a0;
+
+}
+p{
+    font-style: italic;
+
+}
+
+.secondary-button{
+    color: #f98596;
+    background-color: rgb(255,255, 255);
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    border: 2px solid #f691a0;
+    margin: 1rem;
+    width: inherit;
+}
+.secondary-button:hover{
+    color: rgb(55, 54, 54);
+    cursor: pointer;
+    background-color: #e27b87;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=password], input[type=email] {
+    padding: 0.5rem;
+    margin: 0.7rem;
+    font-size: 15px;
+    border-radius: 3rem;
+    width: 90%;
+}
